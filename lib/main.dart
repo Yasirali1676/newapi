@@ -1,4 +1,5 @@
-import 'package:api3/home.dart';
+//import 'package:api3/home.dart';
+import 'package:api3/user2/user.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: User(),
     );
   }
 }
